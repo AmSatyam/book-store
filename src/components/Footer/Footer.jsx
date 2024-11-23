@@ -35,11 +35,17 @@ const Footer = () => {
           <div className=" py-8 px-4 ">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
               <img src={footerLogo} alt="Logo" className="max-w-[50px]" />
-              Books Store
+              Book Store
             </h1>
             <p className="">
-              Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Possimus, voluptate.{" "}
+              Hi, I'm Satyam! This is one of my frontend projects. I am seeking a suitable job
+               that aligns with my skills. Feel free to contact me or visit my portfolio for more details.
+               {" "} <br />
+              <button
+               className="bg-primary hover:scale-105 duration-300 
+               text-white py-1 px-4 rounded-full mt-4 group-hover:bg-white
+                group-hover:text-primary" >
+          <a href="https://satyam-portfolio-henna.vercel.app/"> My Portfolio </a></button>
             </p>
             <br />
             <div className="flex items-center gap-3">
@@ -48,17 +54,17 @@ const Footer = () => {
             </div>
             <div className="flex items-center gap-3 mt-3">
               <FaMobileAlt />
-              <p>+91 8743939XXX</p>
+              <p>+91 8743939829</p>
             </div>
             {/* Social Handle */}
             <div className="flex items-center gap-3 mt-6">
-              <a href="#">
+              <a href="https://satyam-portfolio-henna.vercel.app/">
                 <FaInstagram className="text-3xl" />
               </a>
               <a href="#">
                 <FaFacebook className="text-3xl" />
               </a>
-              <a href="#">
+              <a href="https://in.linkedin.com/in/contact-satyam-saurav">
                 <FaLinkedin className="text-3xl" />
               </a>
             </div>
