@@ -41,7 +41,7 @@ const Navbar = ({ handleOrderPopup }) => {
             <div>
               <a href="https://satyam-portfolio-henna.vercel.app/" className="font-bold text-2xl sm:text-3xl flex gap-2">
                 <img src={Logo} alt="Logo" className="w-10" />
-                Books
+                Readify
               </a>
             </div>
             <div className="flex justify-between items-center gap-4">
