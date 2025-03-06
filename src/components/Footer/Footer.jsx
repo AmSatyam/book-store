@@ -38,7 +38,7 @@ const Footer = () => {
               Readify
             </h1>
             <p className="">
-              Hi, I'm Satyam! This is one of my frontend projects. I am seeking a suitable job
+              Hi, I'm Satyam! This is one of my projects. I am seeking a suitable job
                that aligns with my skills. Feel free to contact me or visit my portfolio for more details.
                {" "} <br />
               <button

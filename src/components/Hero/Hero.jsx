@@ -8,9 +8,9 @@ const ImageList = [
   {
     id: 1,
     img: Book1,
-    title: "His Life will forever be Changed",
+    title: "How to Win Friends and Influence People",
     description:
-      "His Life Will Forever Be Changed by Mary L. Taylor explores a transformative journey of self-discovery, love, and resilience.",
+      "How to win friends and influence people is a psycholgy which basically enhances the way we our living our lives.",
   },
   {
     id: 2,
@@ -22,17 +22,17 @@ const ImageList = [
   {
     id: 3,
     img: Book3,
-    title: "Lost Boy",
+    title: "Atomic Habits",
     description:
-      "Lost Boy is a heart-wrenching tale of survival, identity, and the search for belonging in a world full of uncertainty.",
+      "Atomic habits tells how small decision and changes makes a large impact on our lives.",
   },
 ];
 
 const Hero = ({ handleOrderPopup }) => {
   const [imageId, setImageId] = React.useState(Book1);
-  const [title, setTitle] = React.useState("His Life will forever be Changed");
+  const [title, setTitle] = React.useState("How to Win Friends and Influence People");
   const [description, setDescription] = React.useState(
-    "His Life Will Forever Be Changed by Mary L. Taylor explores a transformative journey of self-discovery, love, and resilience."
+    "How to win friends and influence people is a psycholgy which basically enhances the way we our living our lives by the author Dale Carnegie."
   );
 
   const bgImage = {

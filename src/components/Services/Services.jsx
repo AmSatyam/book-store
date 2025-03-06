@@ -8,14 +8,14 @@ const ServicesData = [
   {
     id: 1,
     img: Img1,
-    title: "His Life",
+    title: "How to Win Friends and Influence People",
     description:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 2,
     img: Img2,
-    title: "Who's there",
+    title: "atomic Habits",
     description:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
